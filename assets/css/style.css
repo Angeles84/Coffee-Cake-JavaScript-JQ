@@ -145,7 +145,7 @@ p {
 
 @media all and (max-width: 768px) {
     .noscontenedor{
-       max-width: 415px;
+       max-width: 390px;
        margin: 0 auto;
     }
   
@@ -256,6 +256,7 @@ h2 {
     .menu__container {
         margin-left: 0.3rem;
         margin-right: 0.5rem;
+        margin-bottom: 2rem;
     }
 }    
 
