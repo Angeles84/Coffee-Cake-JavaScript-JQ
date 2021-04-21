@@ -1,0 +1,466 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #303133;
+   /* font-family: 'Poppins', sans-serif; */
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 4.125rem;
+}
+
+a {
+    text-decoration: none;
+    color: #303133;
+    transition: all 0.4s ease;
+}
+
+a:hover {
+   color: #9c9c9c;
+   text-decoration: none;
+}
+
+.navbar {
+    color: #000000;
+}
+
+.menu-principal a {
+    padding: 0 0.7625rem;
+    font-size: 1.2rem;
+}
+
+
+.redes-s a {
+    padding: 0 0.5625rem;
+}
+
+.main {
+    margin-top: 5.875rem;
+}
+
+.portada {
+  background-color: #141618;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.portada h2 {
+    font-size: 2rem;
+}
+
+.col1 {
+    width: 50%;
+    height: 65%;
+    background-color: #141618;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0;
+    padding: 0;
+}
+
+.dulce {
+    background-size: cover;
+    background-position: left;
+    width: 50%;
+    background-image: url('../img/portada-1.jpg');
+}
+
+
+.frutilla {
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    background-image: url('../img/portada-4.jpg');
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.overlay {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 49, 51, 0.4);
+    position: relative;
+    cursor: pointer;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay:hover {
+     opacity: 1;
+}
+
+.overlay i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto1 {
+    width: 50%;
+    padding: 3.375rem;
+}
+
+.foto-fullizq {
+    width: 100%;
+    min-height: 7.25rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/portada-2.jpg');
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+}
+
+.foto-fullder {
+    width: 100%;
+    min-height: 7.25rem;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/portada-3.jpg');
+    margin: 0;
+    padding: 0;
+    opacity: 0.5;
+}
+
+
+
+.coltitulo {   
+   border-right: 1px solid rgb(212, 212, 212);
+} 
+
+h2 {
+    font-size: 2.7rem;
+}
+
+.chef {
+    background-color: #141618;
+    color: #ffffff;
+}
+
+.contechef {
+   
+    align-items: center;
+}
+
+.colchef {
+    width: 50%;
+}
+
+.chefizq {
+   box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.5);
+   overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto1 {
+    background-image: url('../img/chef-1.jpg');
+}
+
+.foto2 {
+    background-image: url('../img/chef-2.jpg');
+}
+
+.foto3 {
+    background-image: url('../img/chef-3.jpg');
+}
+
+.titulo-section {
+    text-align: center;
+}
+
+.encabezado {
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado li a {
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding-bottom: 0.8rem;
+    
+}
+
+.encabezado a:hover{
+     color: #b4975a;
+}
+
+.encabezado li {
+    border-bottom: 2px solid transparent;
+}
+
+.active a {
+    color: #b4975a;
+    border-bottom: 2px solid #b4975a;
+}
+
+.contenido {
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    border: 6px double #eaeaea;
+    padding: 2.25rem;
+}
+
+.contenido >div {
+    display: none;
+    transition: all 2s ease;
+}
+
+#contenido_menu .active {
+    display: block;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.7rem 0;
+}
+
+hr {
+    background-color: #eaeaea;
+}
+
+
+.precio {
+    vertical-align: top;
+}
+
+.cajaprecio {
+  
+}   
+
+.datos {
+   padding: 5.625rem 0 11.875rem 0;
+   position: relative;
+   background-image: url('../img/contacto-bg.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   transition: all 0.1s ease;
+}
+
+.overlay2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 49, 51, 0.3);
+    top: 0;
+    z-index: 1;
+}
+
+#contacto .container {
+   box-sizing: border-box;
+}
+
+.blurb {
+    background-color: #ffffff;
+    border: 6px double #eaeaea;
+    z-index: 2;
+    margin: 0;
+    width: 10px;
+    padding-top: 1.5rem;
+    margin: 2.2rem;
+}
+
+.formulario {
+    position: relative;
+    z-index: 3;
+    background-color: #ffffff;
+    max-width: 40.625rem;
+    margin: 0 auto;
+    padding: 2.25rem;
+    margin-top: -6.25rem;
+    width: 90%;
+    border: 6px double #eaeaea;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 2rem;
+
+}
+
+.formi {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #303133;
+    width: 100%;
+    outline: none;
+    padding: 0.9375rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(180, 151, 90, 0.5);
+    vertical-align: top;
+}
+
+.formi:focus {
+    border-bottom: 2px solid rgb(180, 151, 90);
+}
+
+textarea {
+    max-width: 100%;
+    max-height: 10.25rem;
+    min-height: 1.25rem;
+    min-width: 100%;
+}
+
+label {
+    color: #777777;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label {
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    transition: all 1s ease;
+}
+
+.input-group .active {
+    top: -0.75rem;
+    margin-left: 0;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    color: #777777;
+}
+
+.input-group .error {
+    position: absolute;
+    color: rgb(255, 59, 59);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 3.5rem;
+    font-size: 0.9rem;
+}
+
+.input-msj .error {
+    position: absolute;
+    color: rgb(255, 59, 59);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5rem;
+    font-size: 0.9rem;
+}
+
+.boton {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #b4975a;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.6rem;
+    padding: 0.8375rem;
+    width: 20%;
+    transition: all 1s ease;
+}   
+
+.boton:hover {
+    background-color: #947c4a;
+}
+
+footer {
+    margin-top: 5.25rem;
+    background-color: #141618;
+    padding: 3.625rem 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.bottom-redes-s {
+    margin-top: 2.25rem;
+
+}
+
+.bottom-redes-s a {
+     padding: 0 0.5625rem;
+     color: #ffffff;
+     transition: all 0.5s ease;
+}
+
+.bottom-redes-s a:hover {
+    color: #b4975a;
+}
+
+@media all and (max-width: 1300px){
+    .texto1 {
+        padding-left: 2.25rem;
+        padding-right: 2.25rem;
+    }
+}
+
+@media all and (max-width: 1199px) {
+    .dulce, .frutilla {
+        display: none;
+    }
+
+    .texto1 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .col1 {
+        width: 100%;
+    }
+
+    .texto1 {
+        padding-left: 4.25rem;
+        padding-right: 4.25rem;
+    }
+
+    .col2 {
+        display: none;
+    }
+}
+
+@media all and (max-width: 580px) {
+    .boton {
+        width: 100%;
+    } 
+
+}
+
+.modal {
+    transition: all 1.5s ease;
+}

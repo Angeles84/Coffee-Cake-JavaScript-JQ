@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee & Cake</title>
+  <!-- Bootstrap 4.6.0 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav id="menu" class="container-fluid navbar navbar-expand-lg bg-white fixed-top border-bottom">
+        <div class="container">
+          <a class="navbar-brand col-4 col-sm-2" href="#"><img src="assets/img/logo.png" class="logo my-2 img-fluid" alt="logo"></a>
+          <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse my-2" id="navbarNav">
+            <ul class="navbar-nav menu-principal ml-auto pb-3 pb-sm-0 pl-2 pl-md-0 pr-4">
+             <li class="nav-item">
+               <a class="nav-link pr-3" href="#portada">Inicio</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link pr-3" href="#nosotros">Nosotros</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link pr-3" href="#chef">El chef</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link pr-3" href="#nuestro_menu">Menú</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link pr-3" href="#contacto">Contacto</a>
+            </li>
+            </ul>
+           <span class="ml-auto redes-s">
+                <a href=""><i class="fab fa-facebook-f fa-1x"></i></a></li>
+                <a href=""><i class="fab fa-twitter fa-1x"></i></a></li>
+                <a href=""><i class="fab fa-instagram fa-1x"></i></a></li>
+           </span>
+          </div>
+        </div>
+      </nav>
+
+
+  <section class="main p-0">
+    <section class="portada" id="portada">
+      
+        <div class="col col1">
+            <div class="dulce izq lightbox">
+                <div class="overlay" data-toggle="modal" data-target="#exampleModal-1">
+                    <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="texto1">
+                <h2>Mejor Calidad</h2>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse provident asperiores, ipsa. In dicta vel, ipsa odio quasi perspiciatis illo sint reiciendis voluptatum incidunt excepturi doloremque nisi impedit rerum nam expedita delectus molestiae voluptate, animi unde.</p>
+            </div>
+
+            <div class="foto-fullizq lightbox">
+                <div class="overlay" data-toggle="modal" data-target="#exampleModal-2">
+                    <i class="fa fa-plus fa-2xs" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col1 col2">
+            <div class="foto-fullder lightbox">
+                <div class="overlay" data-toggle="modal" data-target="#exampleModal-3">
+                    <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="frutilla der lightbox">
+                <div class="overlay" data-toggle="modal" data-target="#exampleModal-4">
+                    <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="texto1">
+                <h2>Mejor Sabor</h2>
+                <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod incidunt doloremque cumque, nobis possimus porro perferendis, suscipit. Laboriosam similique inventore sequi rem velit consequuntur quasi laborum maxime maiores aspernatur voluptatum, animi, aut atque.</p>
+            </div>
+
+        </div>
+  
+    </section> <!-- Portada -->
+   </section>
+
+  <!-- Modales --> 
+  <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Macarrones</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <img src="assets/img/portada-1.jpg" alt="">
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Pie de manzana</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <img src="assets/img/portada-2.jpg" alt="">
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Muffins de chocolate</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <img src="assets/img/portada-3.jpg" alt="">
+       </div>
+     </div>
+   </div>
+ </div>
+ 
+ <div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel">Granola de berries</h5>
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">&times;</span>
+         </button>
+       </div>
+       <div class="modal-body">
+         <img src="assets/img/portada-4.jpg" alt="">
+       </div>
+     </div>
+   </div>
+ </div>
+
+  <!-- Nosotros -->
+  <section class="nosotros my-5 py-5" id="nosotros">
+    <div class="container noscontenedor">
+      <div class="row">
+        <div class="col-12 col-md-4 izq coltitulo">
+            <div class="titulo-seccion mt-5 pt-2">
+                <p>Nosotros</p>
+                <h2 class="pb-4">Conócenos</h2>
+            </div>
+        </div>
+        <div class="col-12 col-md-8 der colparrafo">
+            <div class="texto pl-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, facere itaque voluptatibus in quasi aliquid reiciendis quidem quo. Laborum temporibus aut, velit soluta. Cum nostrum quam ipsam nisi. Aperiam cum ea beatae sit sapiente animi soluta adipisci vel suscipit voluptatem. Blanditiis assumenda odit, sunt voluptatibus molestiae iure, beatae placeat laudantium non explicabo earum nesciunt nostrum adipisci consequatur amet, voluptatum laborum aspernatur autem architecto quae dicta rem quisquam nemo repellat. Explicabo eaque magni asperiores libero ut expedita, voluptatibus cum ipsum harum a, molestiae hic! Debitis ab perspiciatis sequi, unde, ducimus, dolorum voluptates expedita commodi nisi, quos excepturi consectetur cupiditate odit cum.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Nosotros -->
+   
+
+  <section id="chef" class="chef mx-0 my-5 py-5">
+    <div class="container contechef"> 
+      <div class="row">
+         <div class="col-12 col-md-6 chefizq colchef m-0 p-0">
+           <div id="slider" class="slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                 <div class="carousel-item active" data-interval="4000">
+                   <img src="assets/img/chef-1.jpg" class="d-block w-100" alt="...">
+                 </div>
+                 <div class="carousel-item" data-interval="4000">
+                   <img src="assets/img/chef-2.jpg" class="d-block w-100" alt="...">
+                 </div>
+                 <div class="carousel-item" data-interval="4000">
+                   <img src="assets/img/chef-3.jpg" class="d-block w-100" alt="...">
+                 </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Next</span>
+               </a>
+             </div>
+           </div>
+         </div>
+         <div class="col-12 col-md-6 colchef p-4 mt-3">
+           <div class="titulo-section ml-5 mt-5 text-left">
+               <h2 class="mb-3"> El Chef</h2>
+               <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, beatae un.</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus facere atque, nihil repudiandae sapiente tempora beatae hic magni asperiores ex.</p>
+           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="nuestro_menu" class="menu-platos p-5">
+    <div class="container">
+       <div class="titulo-section">
+          <h2>Nuestro menú</h2>
+       </div>
+       <div class="contenedor-menu mt-5">
+          <ul id="encabezado_menu" class="encabezado">
+             <li class=""><a class="mr-5" href="#postres">POSTRES</a></li>
+             <li class="pb-2"><a href="#cafes">CAFÉS</a></li>
+          </ul>
+          <div id="contenido_menu" class="contenido mt-4">
+             <div id="postres">
+                <div class="item row">
+                   <div class="col-12 col-md-10">
+                      <h4>Lorem, ipsum dolor</h4>
+                      <p class="mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labor illum.</p>
+                      <hr>
+                    </div>
+                   <div class="col-12 col-md-2 d-flex align-content-start">
+                      <h4 class="precio ml-3 pb-5 mb-4">$15.00</h4>
+                   </div>
+                </div>
+                <div class="item row">
+                    <div class="col-12 col-md-10">
+                       <h4>Aliquam corrupti obcaecati</h4>
+                       <p class="mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                       <hr>
+                    </div>
+                    <div class="col-12 col-md-2">
+                       <h4 class="precio ml-3 pb-5 mb-4">$12.00</h4>
+                    </div>
+                 </div>
+                 <div class="item row">
+                    <div class="col-12 col-md-10">
+                       <h4>Totam voluptatem veniam</h4>
+                       <p class="mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                       <hr>
+                    </div>
+                    <div class="col-12 col-md-2">
+                       <h4 class="precio ml-3 pb-5 mb-4">$10.00</h4>
+                    </div>
+                 </div>
+                 <div class="item row">
+                    <div class="col-12 col-md-10">
+                       <h4>Eius iure ex facilis</h4>
+                       <p class="mb-4 mb-md-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                       <hr class="d-block d-md-none">
+                     </div>
+                    <div class="col-12 col-md-2">
+                       <h4 class="precio ml-3 pb-md-4">$12.00</h4>
+                    </div>
+                 </div>
+             </div>
+             <div id="cafes">
+                <div class="item row">
+                   <div class="col-12 col-md-10">
+                      <h4>Amet consectetur adipisicing</h4>
+                      <p class="mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                      <hr>
+                    </div>
+                   <div class="col-12 col-md-2">
+                      <h4 class="precio ml-3 pb-5 mb-4">$17.00</h4>
+                   </div>
+                </div>
+                <div class="item row">
+                    <div class="col-12 col-md-10">
+                       <h4>Lorem, ipsum dolor.</h4>
+                       <p class="mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                       <hr>
+                    </div>
+                    <div class="col-12 col-md-2">
+                       <h4 class="precio ml-3 pb-5 mb-4">$12.00</h4>
+                    </div>
+                 </div>
+                 <div class="item row">
+                    <div class="col-12 col-md-10">
+                       <h4>Labore, illum nostrum</h4>
+                       <p class="mb-4 pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                       <hr>
+                    </div>
+                    <div class="col-12 col-md-2">
+                       <h4 class="precio ml-3 pb-5 mb-4">$16.00</h4>
+                    </div>
+                 </div>
+                 <div class="item row">
+                    <div class="col-12 col-md-10">
+                       <h4>Quasi quos dicta</h4>
+                       <p class="mb-4 mb-md-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, illum.</p>
+                       <hr class="d-block d-md-none">
+                     </div>
+                    <div class="col-12 col-md-2">
+                       <h4 class="precio ml-3 pb-md-4">$11.00</h4>
+                    </div>
+                 </div>
+             </div>
+          </div>
+       </div>
+    </div>
+  </section>
+ 
+  <section id="contacto" class="contacto"> 
+     <div class="datos parallax">
+       <div class="overlay2"></div>
+        <div class="container text-center">
+         <div class="row ml-3 ml-md-5">
+           <div class="blurb col-9 col-md-3 px-0">
+              <h4 class="px-0">Escríbenos</h4>
+              <p class="px-0">correo@correo.com</p>
+           </div>
+           <div class="blurb col-9 col-md-3 px-0">
+              <h4 class="px-0">Visítanos</h4>
+              <p class="px-0">Calle 231 #27-22<br>Ciudad XXX</p>
+           </div>
+           <div class="blurb col-9 col-md-3 px-0">
+              <h4 class="px-0">Horarios</h4>
+              <p class="px-0">Martes a Domingo<br>11am - 9am</p>
+           </div>
+         </div>
+        </div>
+     </div>
+
+     <div class="formulario mb-5" id="formulario">
+        <form action="#" class="formulario_contacto" name="formulario_contacto">
+            <div>
+                <div class="input-group" id="input-group">
+                   <input type="text" id="nombre" name="nombre" class="formi">
+                   <label class="label" for="nombre">Nombre</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" class="formi">
+                    <label class="label" for="email">Correo</label>
+                 </div>
+                 <div class="input-group input-msj">
+                    <textarea name="mensaje" id="mensaje" class="formi"></textarea>
+                    <label class="label" for="mensaje">Mensaje</label>
+                 </div>
+                 <input type="submit" value="Enviar" class="boton">
+            </div>
+        </form>
+     </div>
+  </section>
+
+
+  <footer class="container-fluid">
+     <p class="copyright">Todos los derechos reservados</p>
+     <div class="bottom-redes-s">
+        <a href=""><i class="fab fa-facebook-f fa-2x"></i></a>
+        <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+        <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+     </div>
+  </footer>
+
+
+  <!--JQuery 3.6.0-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!--Popper JS 1.16.0-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <!--Bootstrap JS 4.6.0-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/bgParallax.js"></script>
+  <script src="assets/js/formulario.js"></script>
+  <script src="assets/js/scroll.js"></script>
+
+</body>
+</html>
