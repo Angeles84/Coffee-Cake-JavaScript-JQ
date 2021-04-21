@@ -145,7 +145,7 @@ p {
 
 @media all and (max-width: 768px) {
     .noscontenedor{
-       max-width: 450px;
+       max-width: 415px;
        margin: 0 auto;
     }
   
