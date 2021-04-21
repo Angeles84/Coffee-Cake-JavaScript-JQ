@@ -143,7 +143,19 @@ p {
     opacity: 0.5;
 }
 
+@media all and (max-width: 768px) {
+    .noscontenedor{
+       max-width: 450px;
+       margin: 0 auto;
+    }
+  
+}
 
+@media all and (max-width: 768px) {
+    .coltitulo {
+        border-right: 1px solid rgb(255, 255, 255);
+    }
+}
 
 .coltitulo {   
    border-right: 1px solid rgb(212, 212, 212);
@@ -236,6 +248,16 @@ h2 {
     border: 6px double #eaeaea;
     padding: 2.25rem;
 }
+
+@media all and (max-width: 768px) {
+    .contenido {
+        max-width: 430px;
+    }
+    .menu__container {
+        margin-left: 0.3rem;
+        margin-right: 0.5rem;
+    }
+}    
 
 .contenido >div {
     display: none;
@@ -458,6 +480,9 @@ footer {
     .boton {
         width: 100%;
     } 
+    .foto-fullder {
+        min-height: 11rem;
+    }
 
 }
 
